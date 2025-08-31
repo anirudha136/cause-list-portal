@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import PublicDashboard from "./components/PublicDashboard";
 import Login from "./components/Login";
 import OfficerDashboard from "./components/OfficerDashboard";
@@ -6,7 +6,7 @@ import AdminDashboard from "./components/AdminDashboard";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<PublicDashboard />} />
         <Route path="/login" element={<Login />} />
@@ -14,7 +14,7 @@ function App() {
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

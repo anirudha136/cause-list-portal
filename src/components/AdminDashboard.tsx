@@ -33,7 +33,7 @@ export default function AdminDashboard() {
   // Load data immediately on component mount
   useEffect(() => {
     setCases(sampleCases);
-  }, []);
+  }, [sampleCases]);
 
   const pending = cases.filter(c => c.status === "Pending").length;
   const disposed = cases.filter(c => c.status === "Disposed").length;
