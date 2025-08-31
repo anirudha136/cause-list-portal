@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cause-list-portal/static/css/main.09c1f5dc.css",
+    "main.js": "/cause-list-portal/static/js/main.ac459f89.js",
+    "static/js/453.9b4bfaf3.chunk.js": "/cause-list-portal/static/js/453.9b4bfaf3.chunk.js",
+    "index.html": "/cause-list-portal/index.html",
+    "main.09c1f5dc.css.map": "/cause-list-portal/static/css/main.09c1f5dc.css.map",
+    "main.ac459f89.js.map": "/cause-list-portal/static/js/main.ac459f89.js.map",
+    "453.9b4bfaf3.chunk.js.map": "/cause-list-portal/static/js/453.9b4bfaf3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09c1f5dc.css",
+    "static/js/main.ac459f89.js"
+  ]
+}
